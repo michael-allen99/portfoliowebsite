@@ -16,14 +16,31 @@ h2 {
     margin-bottom: 64px;
     color: #3D6D16;
 }
-h2, p {
+h2, h5, p {
     font-family: 'Oswald', sans-serif;
+}
+p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #ABABAB;
+}
+h5 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #3D6D16;
 }
 
 .sectionheader h4 {
     font-size: 24px;
     font-family: "EB Garamond", serif;
-    color: #3D6D16;
+    color: #213D0B;
+}
+.sectioncontent {
+    margin-top: 25px;
+}
+
+.tabsection {
+    margin-top: 20px;
 }
 
 .header {
@@ -31,6 +48,9 @@ h2, p {
 }
 .header-btn {
     margin-top: 50px;
+}
+.tab-btn {
+    margin-top: 0;
 }
 
 .introduction {
@@ -41,4 +61,7 @@ h2, p {
 
 .avatar {
     width: auto;
+}
+.whatido {
+    margin-bottom: 50px;
 }

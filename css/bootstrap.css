@@ -2433,7 +2433,21 @@ fieldset:disabled a.btn {
   background-color: #B5E78E;
   transition: 300ms ease;
 }
+.btn-primary-tab {
+  color: #B5E78E;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid #B5E78E;
+  transition: 300ms ease;
+}
 
+.btn-primary-tab:hover {
+  color: #fff;
+  padding: 5px;
+  background-color: #B5E78E;
+  transition: 300ms ease;
+}
 .btn-primary:focus, .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
