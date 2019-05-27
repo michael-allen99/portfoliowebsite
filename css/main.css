@@ -3,3 +3,31 @@ body {
     padding: 0;
     line-height: 1.2em;
 }
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 29px;
+    margin-top: 127px;
+}
+h2 {
+    font-size: 18px;
+    margin-top: 45px;
+    margin-bottom: 64px;
+}
+h2, p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.header {
+    height: 100vh;
+}
+
+.introduction {
+    background-color: #B5E78E;
+    height: 80vh;
+    overflow: auto;
+}
+
+.avatar {
+    width: auto;
+}
