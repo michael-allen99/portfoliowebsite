@@ -1857,7 +1857,7 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  height: calc(1.5em + 0.75rem + 2px);
+  height: 45px;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
@@ -1865,8 +1865,8 @@ pre code {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border: 2px solid #B5E78E;
+  border-radius: 10px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -2436,7 +2436,7 @@ fieldset:disabled a.btn {
 .btn-primary-tab {
   color: #B5E78E;
   background-color: transparent;
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
   border: 2px solid #B5E78E;
   transition: 300ms ease;
@@ -2444,7 +2444,7 @@ fieldset:disabled a.btn {
 
 .btn-primary-tab:hover {
   color: #fff;
-  padding: 5px;
+  padding: 10px;
   background-color: #B5E78E;
   transition: 300ms ease;
 }
