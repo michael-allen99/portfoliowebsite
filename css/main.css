@@ -7,24 +7,35 @@ body {
 h1 {
     font-family: 'EB Garamond', serif;
     font-size: 29px;
-    margin-top: 127px;
+    margin-top: 80px;
+    color: #213D0B;
 }
 h2 {
     font-size: 18px;
     margin-top: 45px;
     margin-bottom: 64px;
+    color: #3D6D16;
 }
 h2, p {
     font-family: 'Oswald', sans-serif;
 }
 
+.sectionheader h4 {
+    font-size: 24px;
+    font-family: "EB Garamond", serif;
+    color: #3D6D16;
+}
+
 .header {
     height: 100vh;
+}
+.header-btn {
+    margin-top: 50px;
 }
 
 .introduction {
     background-color: #B5E78E;
-    height: 80vh;
+    height: 70vh;
     overflow: auto;
 }
 
