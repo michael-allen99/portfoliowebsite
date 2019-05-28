@@ -22,19 +22,19 @@ h2, h5, p {
 }
 p {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     color: #ABABAB;
     line-height: 2em;
     text-align: justify;
 }
 h5 {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     color: #3D6D16;
 }
 
 .sectionheader h4 {
-    font-size: 26px;
+    font-size: 28px;
     font-family: "EB Garamond", serif;
     color: #213D0B;
 }
