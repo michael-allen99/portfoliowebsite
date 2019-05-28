@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -90,8 +91,14 @@ input {
     padding: 10px;
     -webkit-appearance: none;
 }
+form {
+    margin-left: -2%;
+}
 
-@media only screen and (min-width: 660px){
+.desktop-only {
+    display: none;
+}
+@media only screen and (min-width: 993px){
     h1 {
         font-size: 40px;
     }
@@ -109,5 +116,16 @@ input {
         display: grid;
         grid-template-columns: 50% 50%;
         line-height: 80vh;
+    }
+    .contactform {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    .contactform img {
+        margin-top: 40px;
+    }
+
+    .desktop-only {
+        display: inline;
     }
 }
