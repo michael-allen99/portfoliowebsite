@@ -1865,7 +1865,7 @@ pre code {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 2px solid #B5E78E;
+  border: 2px solid #3A4454;
   border-radius: 10px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2420,17 +2420,17 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #B5E78E;
+  color: #ff853b;
   background-color: transparent;
   padding: 20px;
   border-radius: 10px;
-  border: 2px solid #B5E78E;
+  border: 2px solid #ff853b;
   transition: 300ms ease;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #B5E78E;
+  background-color: #ff853b;
   transition: 300ms ease;
 }
 .btn-contact {
@@ -2444,23 +2444,23 @@ fieldset:disabled a.btn {
 }
 
 .btn-contact:hover {
-  color: #B5E78E;
+  color: #3A4454;
   background-color: #ffffff;
   transition: 300ms ease;
 }
 .btn-primary-tab {
-  color: #B5E78E;
+  color: #ff853b;
   background-color: transparent;
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid #B5E78E;
+  border: 2px solid #ff853b;
   transition: 300ms ease;
 }
 
 .btn-primary-tab:hover {
   color: #fff;
-  padding: 10px;
-  background-color: #B5E78E;
+  padding: 12px;
+  background-color: #ff853b;
   transition: 300ms ease;
 }
 .btn-primary:focus, .btn-primary.focus {

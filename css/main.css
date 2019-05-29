@@ -9,13 +9,13 @@ h1 {
     font-family: 'EB Garamond', serif;
     font-size: 29px;
     margin-top: 127px;
-    color: #213D0B;
+    color: #ff853b;
 }
 h2 {
     font-size: 18px;
     margin-top: 45px;
     margin-bottom: 64px;
-    color: #3D6D16;
+    color: #F7EAFF;
 }
 h2, h5, p {
     font-family: 'Oswald', sans-serif;
@@ -30,13 +30,13 @@ p {
 h5 {
     font-weight: bold;
     font-size: 18px;
-    color: #3D6D16;
+    color: #3A4454;
 }
 
 .sectionheader h4 {
     font-size: 28px;
     font-family: "EB Garamond", serif;
-    color: #213D0B;
+    color: #ff853b;
 }
 .sectioncontent {
     margin-top: 25px;
@@ -44,6 +44,15 @@ h5 {
 .contactheader {
     margin-bottom: 50px;
     font-weight: normal;
+}
+.sectionheader2 h4{
+    font-size: 28px;
+    font-family: "EB Garamond", serif;
+    color: #ff853b;
+    padding-top: 50px;
+}
+.sectioncontent2 h5 {
+    color: #F7EAFF;
 }
 
 .tabsection, .tabsection2 {
@@ -61,12 +70,12 @@ h5 {
 }
 
 .introduction {
-    background-color: #B5E78E;
+    background-color: #3A4454;
     height: 80vh;
     overflow: auto;
 }
 .contact {
-    background-color: #B5E78E;
+    background-color: #3A4454;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -90,12 +99,12 @@ h5 {
 }
 
 textarea {
-    border: 2px solid #B5E78E;
+    border: 2px solid #3A4454;
     border-radius: 10px;
     padding: 10px;
 }
 input {
-    border: 2px solid #B5E78E;
+    border: 2px solid #3A4454 !important;
     border-radius: 10px;
     padding: 10px;
     -webkit-appearance: none;
