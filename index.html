@@ -8,18 +8,24 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:700|Oswald:300,400,700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Mike Allen Web Development</title>
 </head>
 <body>
 
 <section class="header">
     <div class="introduction">
-        <div>
+        <div data-aos="fade-right"
+             data-aos-delay="50"
+             data-aos-duration="600"
+             data-aos-easing="ease-in-out">
             <h1 class="col-10 offset-1 col-md-10 offset-md-2">Hi, I'm Mike...</h1>
             <h2 class="col-10 offset-1 col-md-10 offset-md-2">...and I'm a website developer and designer in the south of England</h2>
         </div>
-        <div>
+        <div data-aos="fade-right"
+        data-aos-delay="50"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out">
             <img src="assets/images/face.png" alt="Headshot of Mike Allen in black and white" class="avatar col-lg-8 col-md-8 col-sm-8 col-8 offset-sm-2 offset-2 offset-lg-2 offset-md-2">
         </div>
     </div>
@@ -29,7 +35,11 @@
 </section>
 
 <div class="container col-12 offset-0 col-lg-10 offset-lg-1">
-    <section class="whatido col-12 offset-0 col-md-10 offset-md-1">
+    <section class="whatido col-12 offset-0 col-md-10 offset-md-1" data-aos="fade-left"
+             data-aos-delay="50"
+             data-aos-duration="600"
+             data-aos-easing="ease-in-out">
+        <div class="sectionheader">
         <div class="sectionheader">
             <h4>What I do</h4>
         </div>
@@ -102,7 +112,10 @@
         </div>
     </section>
 
-    <section class="whatido col-12 offset-0 col-md-10 offset-md-1">
+    <section class="whatido col-12 offset-0 col-md-10 offset-md-1" data-aos="fade-right"
+             data-aos-delay="50"
+             data-aos-duration="600"
+             data-aos-easing="ease-in-out">
         <div class="sectionheader">
             <h4>What I've done</h4>
         </div>
@@ -190,7 +203,10 @@
         </div>
     </section>
 
-    <div class="whatido col-12 offset-0 col-md-10 offset-md-1">
+    <div class="whatido col-12 offset-0 col-md-10 offset-md-1"  data-aos="fade-left"
+         data-aos-delay="50"
+         data-aos-duration="600"
+         data-aos-easing="ease-in-out">
         <div class="sectionheader">
             <h4>Why I do it</h4>
         </div>
@@ -258,7 +274,7 @@
                 // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
-                }, 1000, function(){
+                }, 3000, function(){
 
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;
@@ -266,6 +282,10 @@
             } // End if
         });
     });
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 </body>
 </html>
