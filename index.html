@@ -14,7 +14,15 @@
 <body>
 
 <section class="header">
-    <div class="introduction">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#contact" id="scroll"><img style="width: 50px;" src="assets/icons/email.png" alt="Envelope icon for contact form"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#top" id="scroll2" style="color: #3A4454; font-weight: bold;">Mike Allen</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="introduction" id="top">
         <div data-aos="fade-right"
              data-aos-delay="50"
              data-aos-duration="600"
@@ -26,7 +34,7 @@
         data-aos-delay="50"
         data-aos-duration="600"
         data-aos-easing="ease-in-out">
-            <img src="assets/images/face.png" alt="Headshot of Mike Allen in black and white" class="avatar col-lg-8 col-md-8 col-sm-8 col-8 offset-sm-2 offset-2 offset-lg-2 offset-md-2">
+            <img src="assets/images/face.png" alt="Headshot of Mike Allen in black and white" class="avatar col-lg-8 col-md-8 col-sm-8 col-12 offset-sm-2 offset-0 offset-lg-2 offset-md-2">
         </div>
     </div>
     <div class="contact-button">
@@ -35,12 +43,11 @@
 </section>
 
 <div class="container col-12 offset-0 col-lg-10 offset-lg-1">
-    <section class="whatido col-12 offset-0 col-md-10 offset-md-1" data-aos="fade-left"
+    <section class="whatido col-12 offset-0 col-md-10 offset-md-1" data-aos="fade-in"
              data-aos-delay="50"
              data-aos-duration="600"
              data-aos-easing="ease-in-out">
-        <div class="sectionheader">
-        <div class="sectionheader">
+        <div class="sectionheader" id="do">
             <h4>What I do</h4>
         </div>
         <div class="sectioncontent">
@@ -112,11 +119,11 @@
         </div>
     </section>
 
-    <section class="whatido col-12 offset-0 col-md-10 offset-md-1" data-aos="fade-right"
+    <section class="whatido col-12 offset-0 col-md-10 offset-md-1" data-aos="fade-in"
              data-aos-delay="50"
              data-aos-duration="600"
              data-aos-easing="ease-in-out">
-        <div class="sectionheader">
+        <div class="sectionheader" id="done">
             <h4>What I've done</h4>
         </div>
         <div class="sectioncontent">
@@ -203,11 +210,11 @@
         </div>
     </section>
 
-    <div class="whatido col-12 offset-0 col-md-10 offset-md-1"  data-aos="fade-left"
+    <div class="whatido col-12 offset-0 col-md-10 offset-md-1"  data-aos="fade-in"
          data-aos-delay="50"
          data-aos-duration="600"
          data-aos-easing="ease-in-out">
-        <div class="sectionheader">
+        <div class="sectionheader" id="why">
             <h4>Why I do it</h4>
         </div>
         <div class="sectioncontent">
@@ -220,7 +227,7 @@
 </div>
 
 <section class="contact">
-    <div id="contact" class="whatido col-10 offset-1 col-md-8 offset-md-2" data-aos="fade-right"
+    <div id="contact" class="whatido col-12 offset-0 col-md-8 offset-md-2" data-aos="fade-right"
          data-aos-delay="50"
          data-aos-duration="600"
          data-aos-easing="ease-in-out">
@@ -278,6 +285,78 @@
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
                 }, 3000, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("#scroll2").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1000, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("#scroll3").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1000, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("#scroll4").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1000, function(){
 
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;

@@ -72,16 +72,16 @@ h5 {
 .introduction {
     background-color: #3A4454;
     height: 80vh;
-    overflow: auto;
+    overflow: hidden;
 }
 .contact {
     background-color: #3A4454;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 .avatar {
     width: auto;
+    max-width: 350px;
 }
 .whatido {
     margin-bottom: 150px;
