@@ -37,6 +37,11 @@
             <img src="assets/images/face.png" alt="Headshot of Mike Allen in black and white" class="avatar col-lg-8 col-md-8 col-sm-8 col-12 offset-sm-2 offset-0 offset-lg-2 offset-md-2">
         </div>
     </div>
+    <?php
+    if(isset($_GET['mailsent'])) {
+        echo "<p style='margin-top: 20px; margin-bottom: -30px; text-align: center; color: #ff853b'>Thank you for your email. I'll be in touch shortly</p>";
+    }
+    ?>
     <div class="contact-button">
         <a href="#contact" id="scroll"><button class="header-btn btn-primary col-8 offset-2 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-2 offset-lg-5">Fancy a chat?</button></a>
     </div>
@@ -239,12 +244,15 @@
         </div>
         <div class="contactform">
             <div>
-                <form class="col-12">
+                <form action="contactform.php" method="post" class="col-12">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="inputname" placeholder="Your name" style="border: 2px solid #B5E78E; border-radius: 10px;">
+                        <input type="text" class="form-control" id="inputname" name="inputname" placeholder="Your name" style="border: 2px solid #B5E78E; border-radius: 10px;">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="inputemail" placeholder="Your email" style="border: 2px solid #B5E78E; border-radius: 10px; margin-bottom: 15px;">
+                        <input type="email" class="form-control" id="inputemail" name="inputemail" placeholder="Your email" style="border: 2px solid #B5E78E; border-radius: 10px; margin-bottom: 15px;">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputsubject" name="inputsubject" placeholder="Subject" style="border: 2px solid #B5E78E; border-radius: 10px; margin-bottom: 15px;">
                     </div>
                     <div class="form-group">
                         <textarea name="message" id="message" rows="10" class="col-12" placeholder="I'm all ears!"></textarea>
