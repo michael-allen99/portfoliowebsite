@@ -2433,6 +2433,21 @@ fieldset:disabled a.btn {
   background-color: #B5E78E;
   transition: 300ms ease;
 }
+.btn-contact {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  transition: 300ms ease;
+}
+
+.btn-contact:hover {
+  color: #B5E78E;
+  background-color: #ffffff;
+  transition: 300ms ease;
+}
 .btn-primary-tab {
   color: #B5E78E;
   background-color: transparent;

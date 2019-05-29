@@ -41,11 +41,14 @@ h5 {
 .sectioncontent {
     margin-top: 25px;
 }
-
-.tabsection {
-    margin-top: 20px;
+.contactheader {
+    margin-bottom: 50px;
+    font-weight: normal;
 }
 
+.tabsection, .tabsection2 {
+    margin-top: 40px;
+}
 .header {
     height: 100vh;
 }
@@ -62,12 +65,18 @@ h5 {
     height: 80vh;
     overflow: auto;
 }
+.contact {
+    background-color: #B5E78E;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .avatar {
     width: auto;
 }
 .whatido {
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+    margin-top: 50px;
 }
 
 .tabimage {
@@ -98,6 +107,7 @@ form {
 .desktop-only {
     display: none;
 }
+
 @media only screen and (min-width: 993px){
     h1 {
         font-size: 40px;
@@ -120,6 +130,20 @@ form {
     .contactform {
         display: grid;
         grid-template-columns: 60% 40%;
+    }
+    .tabsection {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    .tabsection2 {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .mobile-only {
+        display: none;
+    }
+    .minusmargin {
+        margin-top: 0;
     }
     .contactform img {
         margin-top: 40px;
