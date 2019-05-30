@@ -34,7 +34,7 @@
         data-aos-delay="50"
         data-aos-duration="600"
         data-aos-easing="ease-in-out">
-            <img src="assets/images/face.png" alt="Headshot of Mike Allen in black and white" class="avatar col-lg-8 col-md-8 col-sm-8 col-12 offset-sm-2 offset-0 offset-lg-2 offset-md-2">
+            <img src="assets/images/face.png" alt="Headshot of Mike Allen in black and white" class="avatar col-lg-8 col-md-8 col-sm-8 col-6 offset-sm-2 offset-3 offset-lg-2 offset-md-2">
         </div>
     </div>
     <?php
