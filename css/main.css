@@ -68,7 +68,9 @@ h5 {
     margin-top: 0;
     padding: 12px;
 }
-
+#contact {
+    margin-bottom: 10px;
+}
 .introduction {
     background-color: #3A4454;
     height: 80vh;

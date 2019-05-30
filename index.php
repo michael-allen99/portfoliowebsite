@@ -44,7 +44,7 @@
     }
     ?>
     <div class="contact-button">
-        <a href="#contact" id="scroll"><button class="header-btn btn-primary col-8 offset-2 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-2 offset-lg-5">Fancy a chat?</button></a>
+        <a href="#contact" id="scroll3"><button class="header-btn btn-primary col-8 offset-2 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-2 offset-lg-5">Fancy a chat?</button></a>
     </div>
 </section>
 
@@ -293,7 +293,7 @@
                 // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
-                }, 3000, function(){
+                }, 1000, function(){
 
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;
@@ -328,30 +328,6 @@
     $(document).ready(function(){
         // Add smooth scrolling to all links
         $("#scroll3").on('click', function(event) {
-
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-                // Prevent default anchor click behavior
-                event.preventDefault();
-
-                // Store hash
-                var hash = this.hash;
-
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 1000, function(){
-
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            } // End if
-        });
-    });
-    $(document).ready(function(){
-        // Add smooth scrolling to all links
-        $("#scroll4").on('click', function(event) {
 
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
