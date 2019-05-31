@@ -118,7 +118,7 @@ form {
     display: none;
 }
 
-@media only screen and (min-width: 993px){
+@media only screen and (min-width: 1025px){
     h1 {
         font-size: 40px;
     }
@@ -137,6 +137,8 @@ form {
         grid-template-columns: 50% 50%;
         line-height: 80vh;
     }
+
+
     .contactform {
         display: grid;
         grid-template-columns: 60% 40%;
