@@ -21,9 +21,9 @@
             <div class="container">
                 <div class="text-center center-block" >
                     <a href="#contact" id="scroll"><i class="fa fa-envelope-square fa-3x social"></i></a>
-                    <a href="https://www.linkedin.com/in/mike-allen-a4801a140/"><i class="fa fa-linkedin-square fa-3x social"></i></a>
-                    <a href="https://github.com/michael-allen99"><i class="fa fa-github-square fa-3x social"></i></a>
-                    <a href="https://www.behance.net/michaelallen99"><i class="fa fa-behance-square fa-3x social"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/mike-allen-a4801a140/"><i class="fa fa-linkedin-square fa-3x social"></i></a>
+                    <a target="_blank" href="https://github.com/michael-allen99"><i class="fa fa-github-square fa-3x social"></i></a>
+                    <a target="_blank" href="https://www.behance.net/michaelallen99"><i class="fa fa-behance-square fa-3x social"></i></a>
                 </div>
             </div>
         </li>
@@ -103,7 +103,7 @@
                                 become a better developer. Checkout my GitHub page to see what
                                 projects I’m working on at the moment.</p>
                             <div class="contact-button">
-                                <a href="https://github.com/michael-allen99"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Take me there</button></a>
+                                <a target="_blank" href="https://github.com/michael-allen99"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Take me there</button></a>
                             </div>
                         </div>
 
@@ -127,7 +127,7 @@
                                 posted onto my Behance page. Feel free to take a look and leave
                                 me some feedback.</p>
                             <div class="contact-button">
-                                <a href="https://www.behance.net/michaelallen99"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Take me there</button></a>
+                                <a target="_blank" href="https://www.behance.net/michaelallen99"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Take me there</button></a>
                             </div>
                         </div>
 
@@ -164,7 +164,7 @@
                                 it allows users to search, review and post venues for a night out in
                                 Southampton. For this assessment, I received a grade of 68% (2:1)</p>
                             <div class="contact-button">
-                                <a href="https://github.com/michael-allen99/NightOutProject-University"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Source Code</button></a>
+                                <a target="_blank" href="https://github.com/michael-allen99/NightOutProject-University"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Source Code</button></a>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                                 styles and using GitHub. For this assessment, I received a grade of
                                 74% (1st)</p>
                             <div class="contact-button">
-                                <a href="https://github.com/michael-allen99/PortfolioProject-University"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Source Code</button></a>
+                                <a target="_blank" href="https://github.com/michael-allen99/PortfolioProject-University"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Source Code</button></a>
                             </div>
                         </div>
                     </div>
@@ -195,7 +195,7 @@
                                 SmartTV and Mobile devices. These designs were interactive and
                                 the process from start to finish can be read on Medium.</p>
                             <div class="contact-button">
-                                <a href="https://medium.com/@3allem72/interactive-smart-tv-and-mobile-prototype-for-a-new-film-streaming-service-freeflix-674e2d2ba231"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Medium Post</button></a>
+                                <a target="_blank" href="https://medium.com/@3allem72/interactive-smart-tv-and-mobile-prototype-for-a-new-film-streaming-service-freeflix-674e2d2ba231"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Medium Post</button></a>
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
                                 they were launching for their third year project “Queens of the South”, which featured drag queens and gender identity in and around the south of England. Check out the logo in full quality on
                                 my Behance page.</p>
                             <div class="contact-button">
-                                <a href="https://www.behance.net/gallery/62845527/Queens-of-the-South-Logo"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Behance</button></a>
+                                <a target="_blank" href="https://www.behance.net/gallery/62845527/Queens-of-the-South-Logo"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Behance</button></a>
                             </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                                 completed and this process allowed me to learn lots of new techniques within Adobe Illustrator. There's a clear improvement of my logo design work
                                 shown within my Behance profile as the days progressed.</p>
                             <div class="contact-button">
-                                <a href="https://www.behance.net/michaelallen99"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Behance</button></a>
+                                <a target="_blank" href="https://www.behance.net/michaelallen99"><button class="tab-btn btn-primary-tab col-8 offset-0 col-lg-4 col-md-3">Behance</button></a>
                             </div>
                         </div>
                     </div>
@@ -283,9 +283,9 @@
 
 <div class="container">
     <div class="text-center center-block">
-        <a href="https://www.linkedin.com/in/mike-allen-a4801a140/"><i class="fa fa-linkedin-square fa-3x social"></i></a>
-        <a href="https://github.com/michael-allen99"><i class="fa fa-github-square fa-3x social"></i></a>
-        <a href="https://www.behance.net/michaelallen99"><i class="fa fa-behance-square fa-3x social"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/mike-allen-a4801a140/"><i class="fa fa-linkedin-square fa-3x social"></i></a>
+        <a target="_blank" href="https://github.com/michael-allen99"><i class="fa fa-github-square fa-3x social"></i></a>
+        <a target="_blank" href="https://www.behance.net/michaelallen99"><i class="fa fa-behance-square fa-3x social"></i></a>
         <a href="mailto:hello@ohitsmike.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
     </div>
     <hr />
