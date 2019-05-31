@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/../contactform/contactform.php" beforeDir="false" afterPath="$PROJECT_DIR$/../contactform/contactform.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../contactform/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../contactform/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../contactform/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../contactform/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="288" column="162" selection-start-line="288" selection-start-column="162" selection-end-line="288" selection-end-column="162" />
+            <state relative-caret-position="216">
+              <caret line="288" column="56" selection-start-line="288" selection-start-column="56" selection-end-line="288" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -210,12 +209,12 @@
       <workItem from="1558965534176" duration="5818000" />
       <workItem from="1558990969974" duration="3506000" />
       <workItem from="1559068421989" duration="4096000" />
-      <workItem from="1559080425286" duration="16777000" />
+      <workItem from="1559080425286" duration="17182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33010000" />
+    <option name="totallyTimeSpent" value="33415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -307,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="288" column="162" selection-start-line="288" selection-start-column="162" selection-end-line="288" selection-end-column="162" />
+        <state relative-caret-position="216">
+          <caret line="288" column="56" selection-start-line="288" selection-start-column="56" selection-end-line="288" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#li#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />

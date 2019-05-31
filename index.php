@@ -286,7 +286,7 @@
 
         <!-- Content -->
         <h3 class="text-uppercase font-weight-bold text-center">Contact:</h3>
-        <h5 class="text-center"><i>E-mail:</i> hello@ohitsmike.com <br> <i>Phone:</i> 07951969615<br><p class="text-center voicemail">Please leave a voicemail</p></h5>
+        <h5 class="text-center">hello@ohitsmike.com <br> 07951969615<br><p class="text-center voicemail">Please leave a voicemail</p></h5>
 
     </div>
     <div class="text-center center-block">
