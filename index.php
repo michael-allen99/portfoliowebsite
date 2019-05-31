@@ -10,18 +10,29 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:700|Oswald:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="assets/icons/favicon.png" rel="icon" type="image/x-icon" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Mike Allen Web Development</title>
 </head>
 <body>
 
 <section class="header">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#contact" id="scroll"><img style="width: 50px;" src="assets/icons/email.png" alt="Envelope icon for contact form"></a>
+        <li style="list-style-type: none;"class="nav-item">
+            <div class="container">
+                <div class="text-center center-block" >
+                    <a href="#contact" id="scroll"><i class="fa fa-envelope-square fa-3x social"></i></a>
+                    <a href="https://www.linkedin.com/in/mike-allen-a4801a140/"><i class="fa fa-linkedin-square fa-3x social"></i></a>
+                    <a href="https://github.com/michael-allen99"><i class="fa fa-github-square fa-3x social"></i></a>
+                    <a href="https://www.behance.net/michaelallen99"><i class="fa fa-behance-square fa-3x social"></i></a>
+                </div>
+            </div>
+        </li>
         <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link" href="#top" id="scroll2" style="color: #3A4454; font-weight: bold;">Mike Allen</a>
             </li>
         </ul>
+
     </nav>
     <div class="introduction" id="top">
         <div data-aos="fade-right"
@@ -38,6 +49,7 @@
             <img src="assets/images/face.png" alt="Headshot of Mike Allen in black and white" class="avatar col-lg-8 col-md-8 col-sm-8 col-6 offset-sm-2 offset-3 offset-lg-2 offset-md-2">
         </div>
     </div>
+
     <?php
     if(isset($_GET['mailsent'])) {
         echo "<p style='margin-top: 20px; margin-bottom: -30px; text-align: center; color: #ff853b'>Thank you for your email. I'll be in touch shortly</p>";
@@ -269,6 +281,15 @@
     </div>
 </section>
 
+<div class="container">
+    <div class="text-center center-block">
+        <a href="https://www.linkedin.com/in/mike-allen-a4801a140/"><i class="fa fa-linkedin-square fa-3x social"></i></a>
+        <a href="https://github.com/michael-allen99"><i class="fa fa-github-square fa-3x social"></i></a>
+        <a href="https://www.behance.net/michaelallen99"><i class="fa fa-behance-square fa-3x social"></i></a>
+        <a href="mailto:hello@ohitsmike.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
+    </div>
+    <hr />
+</div>
 <!--Bootstrap Dependencies-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

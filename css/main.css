@@ -70,6 +70,7 @@ h5 {
 }
 #contact {
     margin-bottom: 10px;
+    margin-top: -30px;
 }
 .introduction {
     background-color: #3A4454;
@@ -88,7 +89,14 @@ h5 {
     margin-bottom: 150px;
     margin-top: 50px;
 }
-
+.fa {
+    color: #525252;
+    transition: 0.3s ease;
+}
+.fa:hover {
+    color: #252525;
+    transition: 0.3s ease;
+}
 .tabimage {
     width: auto;
 }
@@ -137,7 +145,6 @@ form {
         grid-template-columns: 50% 50%;
         line-height: 80vh;
     }
-
 
     .contactform {
         display: grid;
