@@ -281,14 +281,21 @@
     </div>
 </section>
 
-<div class="container">
+<div class="footer-container">
+    <div class="col-10 offset-1 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h3 class="text-uppercase font-weight-bold text-center">Contact:</h3>
+        <h5 class="text-center"><i>E-mail:</i> hello@ohitsmike.com <br> <i>Phone:</i> 07951969615<br><p class="text-center voicemail">Please leave a voicemail</p></h5>
+
+    </div>
     <div class="text-center center-block">
         <a target="_blank" href="https://www.linkedin.com/in/mike-allen-a4801a140/"><i class="fa fa-linkedin-square fa-3x social"></i></a>
         <a target="_blank" href="https://github.com/michael-allen99"><i class="fa fa-github-square fa-3x social"></i></a>
         <a target="_blank" href="https://www.behance.net/michaelallen99"><i class="fa fa-behance-square fa-3x social"></i></a>
         <a href="mailto:hello@ohitsmike.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
     </div>
-    <hr />
+    <p class="copyright text-center">&copy 2019 Copyright: Mike Allen </p>
 </div>
 <!--Bootstrap Dependencies-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -11,6 +11,11 @@ h1 {
     margin-top: 127px;
     color: #ff853b;
 }
+h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 23px;
+    color: #343434;
+}
 h2 {
     font-size: 18px;
     margin-top: 45px;
@@ -125,7 +130,21 @@ form {
 .desktop-only {
     display: none;
 }
+.footer-container {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: #ff853b;
+}
 
+.copyright {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #ffdfef;
+}
+.voicemail {
+    font-size: 15px;
+    color: #525252;
+}
 @media only screen and (min-width: 1025px){
     h1 {
         font-size: 40px;
@@ -170,5 +189,8 @@ form {
 
     .desktop-only {
         display: inline;
+    }
+    h3 {
+        font-size: 27px;
     }
 }
